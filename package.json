@@ -1,0 +1,36 @@
+{
+  "name": "online-talk-club",
+  "version": "0.0.1",
+  "description": "Talking Club. Online meeting aggregator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build ./server/tsconfig.json ./client/tsconfig.json",
+    "start": "mbr-dev-server --port=8092 ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadBrozzeR/talkclub.git"
+  },
+  "keywords": [
+    "talk",
+    "meet",
+    "speek",
+    "conversation",
+    "talk"
+  ],
+  "author": "MadBrozzeR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadBrozzeR/talkclub/issues"
+  },
+  "homepage": "https://github.com/MadBrozzeR/talkclub#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "mbr-serv-request": "^0.2.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "splux": "^1.6.2"
+  }
+}
